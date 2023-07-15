@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>My-Portfolio Website</title>
+  </head>
+
+  <body>
+    <div class="nav">
+      <ul>
+        <a href="#main">
+          <li><i class="fa-solid fa-house-user"></i> &nbsp;Home</li>
+        </a>
+        <a href="#About-me">
+          <li>About me</li>
+        </a>
+        <a href="#skills">
+          <li>Skills</li>
+        </a>
+        <!-- <a href="assets/assets/Ankita's Resume (1).pdf"><li>Resume</li></a> -->
+        <a href="#sample-work">
+          <li>Sample Work</li>
+        </a>
+        <a href="#service">
+          <li>Services</li>
+        </a>
+        <a href="#contact">
+          <li>Contact Me <i class="fa-solid fa-envelope"></i></li>
+        </a>
+      </ul>
+        <hr />
+      </div>
+      <div id="main">
+        <div class="me">
+          Ankita Tiwari <br /><span class="designation"
+            >Software Developer</span
+          >
+          <p class="about-1">
+            HTML5 , CSS3 , JavaScript , ReactJS , NodeJS ,BootStrap
+          </p>
+          <a class="cv"  href="assets/assets/Ankita's Resume (1).pdf"
+            ><button class="btn-1">Access Resume</button></a
+          >
+        </div>
+        <div class="p1">
+          <img src="assets/assets/ankita-removebg-preview1.png" alt="" />
+        </div>
+      </div>
+
+      <div id="About-me">
+        <div class="abt-img">
+          <img src="assets/assets/ankita-3.jpg" alt="" />
+        </div>
+        <div class="abt-me">
+          <h1>About Me</h1>
+          <p class="intro">
+            Ankita Tiwari - Software Developer <br />
+            <span class="desc">
+              Hello! I'm Ankita Tiwari, a passionate software developer
+              specializing in HTML, CSS, ReactJS, JavaScript, Node.js, and
+              Bootstrap. I create engaging web applications with clean designs
+              and seamless user experiences. With expertise in front-end
+              development, I craft visually appealing and responsive interfaces
+              using HTML and CSS. I enhance user experiences with dynamic
+              features using JavaScript and ReactJS. Additionally, my skills in
+              Node.js enable me to develop full-stack applications and handle
+              server-side programming. I am dedicated, fast-learning, and thrive
+              in collaborative environments. Let's connect and work together to
+              create impactful projects that meet client and user needs. Thank
+              you for visiting my portfolio!</span
+            >
+          </p>
+        </div>
+      </div>
+      <div id="skills">
+        <h1 class="heading">Skills</h1>
+        <div class="items">
+          <div class="skill">
+            <img src="assets/assets/html.png" alt="" />
+            <div class="lang">HTMl5</div>
+          </div>
+          <div class="skill">
+            <img src="assets/assets/css.png" alt="" />
+            <div class="lang">CSS3</div>
+          </div>
+          <div class="skill">
+            <img src="assets/assets/js.png" alt="" />
+            <div class="lang">JavaScript</div>
+          </div>
+          <div class="skill">
+            <img src="assets/assets/boot.jpg" alt="" />
+            <div class="lang">BootStrap</div>
+          </div>
+          <div class="skill">
+            <img src="assets/assets/react1.png" alt="" />
+            <div class="lang">ReactJS</div>
+          </div>
+          <div class="skill">
+            <img src="assets/assets/node.jpg" alt="" />
+            <div class="lang">NodeJS</div>
+          </div>
+          <div class="skill">
+            <img src="assets/assets/mongo.jpg" alt="" />
+            <div class="lang">MongoDB</div>
+          </div>
+          <div class="skill">
+            <img src="assets/assets/git.png" alt="" />
+            <div class="lang">Github</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sample-work">
+      <h1 class="heading">Sample Works</h1>
+      <div class="works">
+        <div class="sample">
+          <h1>Survey-Form-Web-App</h1>
+
+          <a href="https://survey-app-v4ey.onrender.com"
+            ><img src="assets/assets/app.PNG" alt=""
+          /></a>
+          <p id="surveyParagraph" class="survey">
+            In this project, I collaborated with a team The technologies used
+            are Reactjs (for Front-end) , Nodejs (for Back-end) ,MongoDB (for
+            storing data).In this app only authorized users can signin . if the
+            user does not exist then they need to Register first then only they
+            can signin.(bcrypt and web tokens has ben used for handling
+            validations and authorizations).after logging in successfully User
+            will e directed to the Survey List Page where all the surveys will
+            be rendered and user can Create new surveys from there. with (Name,
+            Type, Description, Start date and End date) user can edit and delete
+            the surveys too.User can add Questions and take a preview and also
+            can change the theme settings.Features Added like Register, SignIn
+            and Logout.
+          </p>
+          <button class="btn" onclick="toggleReadMore()">Read More</button>
+        </div>
+        <div class="sample">
+          <h1>Mini-insta-clone</h1>
+
+          <a href="https://instaclone-frontend-lkx2.onrender.com/"
+            ><img src="assets/assets/igclone.PNG" alt=""
+          /></a>
+          <p class="insta">
+            Mini-Insta clone. I was responsible for developing the front-end
+            user interface using ReactJs, and integrating it with the back-end
+            functionality built with Node.js and MongoDB.
+          </p>
+        </div>
+        <!-- <div class="sample">
+                <h1>Chat-app</h1>
+
+                <a href=""><img src="assets/assets/app.PNG" alt=""></a>
+                <p class="chat-app">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum totam sed delectus
+                    adipisci quod quae, facilis est alias consectetur nostrum voluptates unde neque perferendis,
+                    molestiae nisi quibusdam asperiores vitae itaque!</p>
+            </div> -->
+      </div>
+    </div>
+    <div id="service">
+      <h1 class="heading">Services I offer</h1>
+      <div class="services">
+        <div class="front-end">
+          <h2>Front-End Development</h2>
+          <img src="assets/assets/fornt.jpg" alt="" />
+        </div>
+
+        <div class="web">
+          <h2>Web Designing/Development</h2>
+          <img src="assets/assets/design.jpg" alt="" />
+        </div>
+
+        <div class="full-stack">
+          <h2>Full-stack Web Development</h2>
+          <img src="assets/assets/mern4.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <footer id="contact">
+      <h1>Contact Me</h1>
+      <div class="mail">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email-ID : </span>
+        <span>ankitatiwari12001@gmail.com</span>
+      </div>
+      <div class="social">
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href=""> <i class="fa-brands fa-github"></i></a>
+        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
